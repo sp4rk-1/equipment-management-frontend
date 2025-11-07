@@ -1,8 +1,9 @@
 import './App.css'
 
-function App() {
+function App () {
   return (
     <>
+      <h1>Prestamo de equipo CADI</h1>
     </>
   )
 }
