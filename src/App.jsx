@@ -1,9 +1,14 @@
 import './App.css'
+import { Menu } from './components/Menu'
+import { Outlet } from 'react-router'
 
 function App () {
   return (
     <>
-      <h1>Prestamo de equipo CADI</h1>
+      <Menu />
+      <main>
+        <Outlet />
+      </main>
     </>
   )
 }
