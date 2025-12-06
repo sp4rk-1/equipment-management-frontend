@@ -18,7 +18,6 @@ export function Menu () {
       <nav className='menu'>
         <ul>
           <MenuItem text='Prestamo de equipo CADI' path='/' />
-          <MenuItem text='Nuevo usuario' path='/new-student' />
           <MenuItem text='Historial' path='/history' />
           <MenuItem text='Usuarios' path='/users' />
           <MenuItem text='Equipo' path='/equipment' />
